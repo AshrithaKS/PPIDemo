@@ -1,0 +1,18 @@
+numpy>=2.0
+pandas>=2.2
+pyarrow>=15
+scipy>=1.13
+scikit-learn>=1.5
+xgboost>=2.0
+matplotlib>=3.8
+torch>=2.2
+transformers>=4.40
+ctgan>=0.10
+imbalanced-learn>=0.12
+pytest>=8
+optuna>=3.6
+shap>=0.45
+streamlit>=1.35
+
+
+#run command - python -m streamlit run app/streamlit_app.py

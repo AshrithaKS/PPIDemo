@@ -1,0 +1,51 @@
+W1107 19:21:03.683000 16800 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Ashritha K S\.cache\huggingface\hub\models--facebook--esm2_t30_150M_UR50D. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Ashritha K S\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/486 [00:00<?, ?it/s]Loading weights:   2%|2         | 11/486 [00:00<00:06, 70.53it/s]Loading weights:   4%|3         | 19/486 [00:00<00:20, 23.05it/s]Loading weights: 100%|##########| 486/486 [00:00<00:00, 649.39it/s]
+[transformers] [1mEsmModel LOAD REPORT[0m from: facebook/esm2_t30_150M_UR50D
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+25/422 proteins  11s
+50/422 proteins  22s
+75/422 proteins  32s
+100/422 proteins  43s
+125/422 proteins  53s
+150/422 proteins  64s
+175/422 proteins  75s
+200/422 proteins  92s
+225/422 proteins  102s
+250/422 proteins  112s
+275/422 proteins  124s
+300/422 proteins  137s
+325/422 proteins  148s
+350/422 proteins  158s
+375/422 proteins  169s
+400/422 proteins  191s
+422/422 proteins  201s
+{
+  "model": "facebook/esm2_t30_150M_UR50D",
+  "dim": 640,
+  "n_residues": 88040,
+  "n_proteins": 422,
+  "dtype": "float16",
+  "chunk": {
+    "max_len": 1000,
+    "overlap": 200
+  },
+  "mean": 0.00376642937771976,
+  "std": 0.33816683292388916,
+  "seconds": 202.4
+}

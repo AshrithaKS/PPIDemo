@@ -1,0 +1,4 @@
+tuning set F: 874 features, 76,249 training residues, 352 proteins, 3 inner folds
+  trial  0  264s  PR-AUC 0.3312  depth 9 mcw 5 col 0.50 spw none iters [789, 508, 125]
+  trial  1   84s  PR-AUC 0.3086  depth 6 mcw 15 col 0.53 spw sqrt iters [267, 111, 263]
+  trial  2  251s  PR-AUC 0.3182  depth 8 mcw 11 col 0.76 spw full iters [762, 796, 45]

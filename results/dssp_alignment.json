@@ -1,0 +1,68 @@
+{
+  "n_mismatched": 46,
+  "best_shift_is_0": 23,
+  "best_shift_nonzero": 23,
+  "mean_gain_nonzero": 0.0551,
+  "reference_gain_on_matched_proteins_mean": 0.0048,
+  "reference_gain_on_matched_proteins_p90": 0.0154,
+  "worst_proteins": [
+    {
+      "protein_id": "4IU2A",
+      "idx": 334,
+      "len_diff": 4,
+      "best_shift": 2,
+      "gain_vs_shift0": 0.1353
+    },
+    {
+      "protein_id": "3fqd_B",
+      "idx": 181,
+      "len_diff": 11,
+      "best_shift": 8,
+      "gain_vs_shift0": 0.1323
+    },
+    {
+      "protein_id": "1zbd_B",
+      "idx": 61,
+      "len_diff": 5,
+      "best_shift": 3,
+      "gain_vs_shift0": 0.1138
+    },
+    {
+      "protein_id": "2apo_B",
+      "idx": 67,
+      "len_diff": 3,
+      "best_shift": 1,
+      "gain_vs_shift0": 0.111
+    },
+    {
+      "protein_id": "3fqd_A",
+      "idx": 180,
+      "len_diff": 15,
+      "best_shift": 11,
+      "gain_vs_shift0": 0.1077
+    },
+    {
+      "protein_id": "1jmo_A",
+      "idx": 379,
+      "len_diff": 2,
+      "best_shift": 2,
+      "gain_vs_shift0": 0.0907
+    },
+    {
+      "protein_id": "2v1y_A",
+      "idx": 125,
+      "len_diff": 2,
+      "best_shift": 1,
+      "gain_vs_shift0": 0.0894
+    },
+    {
+      "protein_id": "1zbd_A",
+      "idx": 60,
+      "len_diff": 6,
+      "best_shift": 3,
+      "gain_vs_shift0": 0.0723
+    }
+  ],
+  "shift_threshold": 0.02,
+  "n_shifts_applied": 17
+}

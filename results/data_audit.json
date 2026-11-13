@@ -1,0 +1,63 @@
+{
+  "n_proteins": 422,
+  "n_residues": 88040,
+  "n_positive": 13536,
+  "pos_rate_pooled": 0.15374829622898684,
+  "pos_rate_by_dset": {
+    "Dset_186": 0.1523,
+    "Dset_72": 0.106,
+    "PDBset_164": 0.181
+  },
+  "proteins_by_split": {
+    "train": 352,
+    "test": 70
+  },
+  "residues_by_split": {
+    "train": 76249,
+    "test": 11791
+  },
+  "pos_rate_by_split": {
+    "test": 0.1978,
+    "train": 0.1469
+  },
+  "dssp_mismatch_proteins": 46,
+  "dssp_longer": 32,
+  "dssp_shorter": 14,
+  "dssp_max_abs_diff": 15,
+  "dssp_shifts_applied": 17,
+  "dssp_padded_residues": 15,
+  "dssp_row_sum_counts_raw": {
+    "1": 87471,
+    "0": 649
+  },
+  "dssp_col_freq_raw": [
+    18087,
+    3327,
+    7722,
+    9962,
+    27587,
+    19361,
+    970,
+    0,
+    455
+  ],
+  "length_min_median_max": [
+    39,
+    165,
+    2000
+  ],
+  "proteins_over_500": 14,
+  "protein_id_overlap_train_test": 0,
+  "dset_vs_split": {
+    "test": {
+      "Dset_186": 30,
+      "Dset_72": 9,
+      "PDBset_164": 31
+    },
+    "train": {
+      "Dset_186": 156,
+      "Dset_72": 63,
+      "PDBset_164": 133
+    }
+  }
+}

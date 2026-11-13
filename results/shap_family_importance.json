@@ -1,0 +1,117 @@
+{
+  "n_explained": 3000,
+  "additivity_max_error": 4.291534423828125e-06,
+  "family_share_of_total_abs_shap": {
+    "ESM-2 embedding": 0.7956375479698181,
+    "global: DSSP fractions": 0.026027411222457886,
+    "global: amino-acid composition": 0.045579515397548676,
+    "global: length / relative position": 0.041969507932662964,
+    "global: mean PSSM": 0.02462938241660595,
+    "window: DSSP": 0.005182902328670025,
+    "window: PSSM": 0.05980755761265755,
+    "window: residue identity (one-hot)": 0.0011660705786198378
+  },
+  "family_n_features": {
+    "ESM-2 embedding": 640,
+    "global: DSSP fractions": 9,
+    "global: amino-acid composition": 20,
+    "global: length / relative position": 2,
+    "global: mean PSSM": 20,
+    "window: DSSP": 63,
+    "window: PSSM": 140,
+    "window: residue identity (one-hot)": 140
+  },
+  "window_offset_share": {
+    "-3": 0.10612592846155167,
+    "-2": 0.1509844809770584,
+    "-1": 0.14898481965065002,
+    "0": 0.22602325677871704,
+    "1": 0.17987480759620667,
+    "2": 0.08814498782157898,
+    "3": 0.09986164420843124
+  },
+  "top_non_esm_features": [
+    [
+      "g_log_len",
+      0.2645568549633026
+    ],
+    [
+      "g_dssp_7",
+      0.08971153944730759
+    ],
+    [
+      "g_comp_W",
+      0.03741718456149101
+    ],
+    [
+      "pssm_12@+1",
+      0.034667473286390305
+    ],
+    [
+      "pssm_12@-1",
+      0.02964935079216957
+    ],
+    [
+      "g_comp_T",
+      0.026054611429572105
+    ],
+    [
+      "pssm_12@-2",
+      0.02561415173113346
+    ],
+    [
+      "g_dssp_2",
+      0.021636120975017548
+    ],
+    [
+      "g_comp_Q",
+      0.019804323092103004
+    ],
+    [
+      "g_rel_pos",
+      0.01875382289290428
+    ],
+    [
+      "g_comp_D",
+      0.017857102677226067
+    ],
+    [
+      "g_comp_V",
+      0.01782136783003807
+    ],
+    [
+      "g_dssp_1",
+      0.017250314354896545
+    ],
+    [
+      "g_pssm_14",
+      0.016804521903395653
+    ],
+    [
+      "g_comp_C",
+      0.016308965161442757
+    ],
+    [
+      "g_comp_Y",
+      0.016188981011509895
+    ],
+    [
+      "g_comp_R",
+      0.015188513323664665
+    ],
+    [
+      "g_pssm_19",
+      0.01511205080896616
+    ],
+    [
+      "g_comp_H",
+      0.014865481294691563
+    ],
+    [
+      "g_pssm_6",
+      0.01476936973631382
+    ]
+  ],
+  "esm_top10_dims_share_of_esm_importance": 0.12584534287452698,
+  "model_threshold": 0.16999999999999998
+}

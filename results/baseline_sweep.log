@@ -1,0 +1,12 @@
+[sweep local/unbalanced/s0] best_iter 837  25s  prauc 0.293 mcc@thr 0.144
+[sweep local/unbalanced/s1] best_iter 205  9s  prauc 0.282 mcc@thr 0.131
+[sweep local/unbalanced/s2] best_iter 2960  53s  prauc 0.285 mcc@thr 0.130
+[sweep local/weighted/s0] best_iter 700  20s  prauc 0.287 mcc@thr 0.101
+[sweep local/weighted/s1] best_iter 553  17s  prauc 0.287 mcc@thr 0.141
+[sweep local/weighted/s2] best_iter 2400  49s  prauc 0.284 mcc@thr 0.084
+[sweep local+global/unbalanced/s0] best_iter 1088  43s  prauc 0.352 mcc@thr 0.213
+[sweep local+global/unbalanced/s1] best_iter 1057  47s  prauc 0.343 mcc@thr 0.220
+[sweep local+global/unbalanced/s2] best_iter 2919  85s  prauc 0.351 mcc@thr 0.227
+[sweep local+global/weighted/s0] best_iter 881  43s  prauc 0.322 mcc@thr 0.192
+[sweep local+global/weighted/s1] best_iter 523  50s  prauc 0.317 mcc@thr 0.179
+[sweep local+global/weighted/s2] best_iter 2104  75s  prauc 0.326 mcc@thr 0.184

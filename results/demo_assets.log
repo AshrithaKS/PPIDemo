@@ -1,0 +1,3 @@
+curve at default threshold 0.13999999999999999: precision 0.377 recall 0.527 mcc 0.2786 (meta says mcc 0.2786)
+family share of mean |contribution|: {'ESM-2 embedding': 0.706, 'Amino-acid composition': 0.102, 'Chain length': 0.171, 'Position in chain': 0.022}
+additivity max error: 7.152557373046875e-06

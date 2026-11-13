@@ -1,0 +1,4 @@
+[cv local/unbalanced] n_est 837  mcc 0.113±0.014 prauc 0.229±0.018 recall 0.325
+[cv local/weighted] n_est 700  mcc 0.104±0.026 prauc 0.225±0.020 recall 0.258
+[cv local+global/unbalanced] n_est 1088  mcc 0.204±0.013 prauc 0.303±0.013 recall 0.451
+[cv local+global/weighted] n_est 881  mcc 0.193±0.012 prauc 0.289±0.011 recall 0.443

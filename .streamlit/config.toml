@@ -1,0 +1,24 @@
+[server]
+address = "localhost"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#0369a1"
+font = "sans serif"
+
+[theme.light]
+backgroundColor = "#f0f9ff"
+secondaryBackgroundColor = "#e6f4fd"
+textColor = "#0c3b5c"
+primaryColor = "#0369a1"
+borderColor = "#cfe3f3"
+
+[theme.dark]
+backgroundColor = "#061523"
+secondaryBackgroundColor = "#0f2b42"
+textColor = "#e0f2fe"
+primaryColor = "#38bdf8"
+borderColor = "#1d3d59"

@@ -1,0 +1,4 @@
+[leak(random residue split) local/unbalanced] mcc 0.134±0.007 prauc 0.246 recall 0.371
+[leak(random residue split) local/weighted] mcc 0.123±0.006 prauc 0.241 recall 0.280
+[leak(random residue split) local+global/unbalanced] mcc 0.345±0.005 prauc 0.440 recall 0.564
+[leak(random residue split) local+global/weighted] mcc 0.331±0.007 prauc 0.430 recall 0.476

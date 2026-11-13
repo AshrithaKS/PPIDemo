@@ -1,0 +1,24 @@
+[H fold 0] iters 365 24s  mcc 0.181 prauc 0.300 recall 0.238
+[H fold 1] iters 124 9s  mcc 0.188 prauc 0.288 recall 0.424
+[H fold 2] iters 761 25s  mcc 0.227 prauc 0.327 recall 0.415
+[H fold 3] iters 592 30s  mcc 0.219 prauc 0.338 recall 0.270
+[H fold 4] iters 446 28s  mcc 0.211 prauc 0.319 recall 0.486
+=== H (394 feats)  MCC 0.205±0.018  PR-AUC 0.314±0.018  recall 0.367  precision 0.319  acc 0.775
+[E fold 0] iters 252 100s  mcc 0.203 prauc 0.302 recall 0.424
+[E fold 1] iters 321 94s  mcc 0.207 prauc 0.297 recall 0.473
+[E fold 2] iters 1022 192s  mcc 0.243 prauc 0.345 recall 0.514
+[E fold 3] iters 280 85s  mcc 0.216 prauc 0.332 recall 0.284
+[E fold 4] iters 293 114s  mcc 0.160 prauc 0.280 recall 0.360
+=== E (480 feats)  MCC 0.206±0.027  PR-AUC 0.311±0.024  recall 0.411  precision 0.300  acc 0.758
+[E+G fold 0] iters 281 117s  mcc 0.237 prauc 0.326 recall 0.388
+[E+G fold 1] iters 985 613s  mcc 0.230 prauc 0.341 recall 0.301
+[E+G fold 2] iters 872 540s  mcc 0.257 prauc 0.363 recall 0.576
+[E+G fold 3] iters 414 110s  mcc 0.264 prauc 0.357 recall 0.388
+[E+G fold 4] iters 262 80s  mcc 0.213 prauc 0.312 recall 0.409
+=== E+G (531 feats)  MCC 0.240±0.018  PR-AUC 0.340±0.019  recall 0.413  precision 0.337  acc 0.780
+[F fold 0] iters 380 110s  mcc 0.243 prauc 0.336 recall 0.369
+[F fold 1] iters 1180 252s  mcc 0.250 prauc 0.355 recall 0.484
+[F fold 2] iters 1059 223s  mcc 0.283 prauc 0.387 recall 0.465
+[F fold 3] iters 494 131s  mcc 0.262 prauc 0.369 recall 0.319
+[F fold 4] iters 293 88s  mcc 0.213 prauc 0.320 recall 0.393
+=== F (874 feats)  MCC 0.250±0.023  PR-AUC 0.354±0.023  recall 0.406  precision 0.350  acc 0.789

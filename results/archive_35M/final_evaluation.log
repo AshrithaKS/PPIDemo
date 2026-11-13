@@ -1,0 +1,21 @@
+tuning: 3 trials, best PR-AUC 0.3312 vs reference 0.3312 -> search improved on defaults: False; final parameters equal defaults: True
+train 76,249 residues / 352 proteins; test 11,791 residues / 70 proteins, test positive rate 0.198
+[H_baseline seed 0]   12s iters   81 thr 0.19  mcc 0.205 prauc 0.349 recall 0.511 prec 0.317 acc 0.686
+[H_baseline seed 1]   10s iters  166 thr 0.15  mcc 0.198 prauc 0.351 recall 0.656 prec 0.283 acc 0.604
+[H_baseline seed 2]   14s iters  260 thr 0.24  mcc 0.221 prauc 0.346 recall 0.341 prec 0.390 acc 0.764
+=== H_baseline: per-seed MCC 0.208±0.010  PR-AUC 0.349±0.002  | ensemble MCC 0.223 PR-AUC 0.364
+[F_final seed 0]  124s iters  359 thr 0.16  mcc 0.257 prauc 0.397 recall 0.490 prec 0.370 acc 0.734
+[F_final seed 1]   94s iters  248 thr 0.14  mcc 0.251 prauc 0.396 recall 0.615 prec 0.328 acc 0.674
+[F_final seed 2]  207s iters  489 thr 0.18  mcc 0.242 prauc 0.391 recall 0.355 prec 0.410 acc 0.771
+=== F_final: per-seed MCC 0.250±0.006  PR-AUC 0.395±0.002  | ensemble MCC 0.271 PR-AUC 0.411
+[S_demo seed 0]  123s iters  285 thr 0.24  mcc 0.239 prauc 0.383 recall 0.328 prec 0.421 acc 0.778
+[S_demo seed 1]  212s iters  964 thr 0.06  mcc 0.254 prauc 0.395 recall 0.575 prec 0.341 acc 0.696
+[S_demo seed 2]  194s iters  998 thr 0.11  mcc 0.238 prauc 0.381 recall 0.405 prec 0.382 acc 0.753
+=== S_demo: per-seed MCC 0.244±0.007  PR-AUC 0.386±0.006  | ensemble MCC 0.261 PR-AUC 0.400
+  F_final    95% CI (70 test proteins)  MCC 0.220-0.323   PR-AUC 0.356-0.470
+  H_baseline 95% CI (70 test proteins)  MCC 0.181-0.268   PR-AUC 0.317-0.417
+  S_demo     95% CI (70 test proteins)  MCC 0.205-0.318   PR-AUC 0.341-0.461
+  F_final - H_baseline      dMCC +0.048 CI +0.019..+0.077 P(better) 1.00 | dPR-AUC +0.047 CI +0.019..+0.076 P(better) 1.00
+  F_final - S_demo          dMCC +0.010 CI -0.006..+0.027 P(better) 0.88 | dPR-AUC +0.011 CI -0.003..+0.025 P(better) 0.92
+
+saved results/final_evaluation.json, results/test_predictions.parquet, models/*

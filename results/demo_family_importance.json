@@ -1,0 +1,22 @@
+{
+  "families": [
+    "ESM-2 embedding",
+    "Amino-acid composition",
+    "Chain length",
+    "Position in chain"
+  ],
+  "mean_abs_contribution": [
+    1.1332613229751587,
+    0.1630585491657257,
+    0.2738708555698395,
+    0.03571311756968498
+  ],
+  "share": [
+    0.7056844830513,
+    0.10153693705797195,
+    0.17054001986980438,
+    0.02223864197731018
+  ],
+  "base_value_logodds": -1.8074582815170288,
+  "n_residues": 11791
+}

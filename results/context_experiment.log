@@ -1,0 +1,7 @@
+[base seed 0]  507s  raw mcc 0.279 prauc 0.413 acc 0.735 | smooth(h=4,a=0.5) mcc 0.283 prauc 0.412 acc 0.718
+[base seed 1]  197s  raw mcc 0.271 prauc 0.407 acc 0.758 | smooth(h=4,a=0.5) mcc 0.288 prauc 0.404 acc 0.746
+[base seed 2]  341s  raw mcc 0.256 prauc 0.408 acc 0.782 | smooth(h=0,a=1.0) mcc 0.256 prauc 0.408 acc 0.782
+=== base raw   : MCC 0.269±0.009  PR-AUC 0.410  acc 0.758  prec 0.404  recall 0.440
+=== base smooth: MCC 0.276±0.014  PR-AUC 0.408  acc 0.748  prec 0.397  recall 0.479
+[ctx7 seed 0]  367s  raw mcc 0.256 prauc 0.404 acc 0.756 | smooth(h=2,a=0.7) mcc 0.259 prauc 0.401 acc 0.693
+[ctx7 seed 1]  646s  raw mcc 0.267 prauc 0.408 acc 0.704 | smooth(h=4,a=0.5) mcc 0.260 prauc 0.398 acc 0.683

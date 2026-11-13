@@ -1,0 +1,72 @@
+
+=== fold 0: train 60,281 (pos 9,258 = 0.154) val 10,187 test 17,572 | PCA var 0.47
+  none           5s  @valthr mcc 0.123 prauc 0.233 rec 0.195 | @0.5 mcc 0.044 rec 0.005 prec 0.632
+  weight         3s  @valthr mcc 0.123 prauc 0.222 rec 0.300 | @0.5 mcc 0.125 rec 0.511 prec 0.210
+  ros1.0         4s  @valthr mcc 0.138 prauc 0.226 rec 0.549 | @0.5 mcc 0.136 rec 0.492 prec 0.219
+  smotenc0.5     4s  @valthr mcc 0.124 prauc 0.211 rec 0.556 | @0.5 mcc 0.038 rec 0.017 prec 0.299
+  smotenc1.0    14s  @valthr mcc 0.126 prauc 0.217 rec 0.684 | @0.5 mcc 0.064 rec 0.069 prec 0.263
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\ctgan\synthesizers\_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+  CTGAN fit 557s
+  ctgan0.5       5s  @valthr mcc 0.142 prauc 0.233 rec 0.399 | @0.5 mcc 0.043 rec 0.011 prec 0.389
+  ctgan1.0      12s  @valthr mcc 0.148 prauc 0.232 rec 0.659 | @0.5 mcc 0.043 rec 0.016 prec 0.331
+  fidelity ctgan : {'ks_mean': 0.147, 'ks_max': 0.363, 'corr_diff': 0.087, 'cat_tv_aa': 0.07, 'cat_tv_dssp': 0.143, 'detect_auc': 1.0, 'nn_ratio': 1.793}
+  fidelity smote : {'ks_mean': 0.055, 'ks_max': 0.107, 'corr_diff': 0.021, 'cat_tv_aa': 0.039, 'cat_tv_dssp': 0.089, 'detect_auc': 0.976, 'nn_ratio': 0.664}
+
+=== fold 1: train 60,296 (pos 9,252 = 0.153) val 10,122 test 17,622 | PCA var 0.47
+  none           3s  @valthr mcc 0.159 prauc 0.262 rec 0.415 | @0.5 mcc 0.027 rec 0.002 prec 0.545
+  weight         5s  @valthr mcc 0.161 prauc 0.254 rec 0.412 | @0.5 mcc 0.164 rec 0.442 prec 0.251
+  ros1.0         4s  @valthr mcc 0.153 prauc 0.250 rec 0.382 | @0.5 mcc 0.154 rec 0.434 prec 0.245
+  smotenc0.5     9s  @valthr mcc 0.127 prauc 0.243 rec 0.258 | @0.5 mcc 0.069 rec 0.026 prec 0.402
+  smotenc1.0     6s  @valthr mcc 0.118 prauc 0.221 rec 0.482 | @0.5 mcc 0.065 rec 0.066 prec 0.274
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\ctgan\synthesizers\_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+  CTGAN fit 521s
+  ctgan0.5      11s  @valthr mcc 0.163 prauc 0.256 rec 0.612 | @0.5 mcc 0.067 rec 0.018 prec 0.475
+  ctgan1.0      14s  @valthr mcc 0.155 prauc 0.249 rec 0.601 | @0.5 mcc 0.048 rec 0.015 prec 0.381
+  fidelity ctgan : {'ks_mean': 0.152, 'ks_max': 0.368, 'corr_diff': 0.081, 'cat_tv_aa': 0.111, 'cat_tv_dssp': 0.159, 'detect_auc': 1.0, 'nn_ratio': 1.76}
+  fidelity smote : {'ks_mean': 0.051, 'ks_max': 0.1, 'corr_diff': 0.022, 'cat_tv_aa': 0.035, 'cat_tv_dssp': 0.111, 'detect_auc': 0.974, 'nn_ratio': 0.641}
+
+=== fold 2: train 58,687 (pos 9,125 = 0.155) val 11,738 test 17,615 | PCA var 0.47
+  none           6s  @valthr mcc 0.161 prauc 0.265 rec 0.694 | @0.5 mcc 0.084 rec 0.023 prec 0.516
+  weight         3s  @valthr mcc 0.156 prauc 0.256 rec 0.709 | @0.5 mcc 0.161 rec 0.523 prec 0.233
+  ros1.0         7s  @valthr mcc 0.158 prauc 0.257 rec 0.719 | @0.5 mcc 0.156 rec 0.418 prec 0.248
+  smotenc0.5     4s  @valthr mcc 0.157 prauc 0.248 rec 0.684 | @0.5 mcc 0.076 rec 0.029 prec 0.417
+  smotenc1.0     7s  @valthr mcc 0.143 prauc 0.242 rec 0.653 | @0.5 mcc 0.105 rec 0.088 prec 0.339
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\ctgan\synthesizers\_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+  CTGAN fit 508s
+  ctgan0.5      10s  @valthr mcc 0.165 prauc 0.269 rec 0.583 | @0.5 mcc 0.105 rec 0.040 prec 0.484
+  ctgan1.0      10s  @valthr mcc 0.163 prauc 0.260 rec 0.458 | @0.5 mcc 0.091 rec 0.032 prec 0.473
+  fidelity ctgan : {'ks_mean': 0.134, 'ks_max': 0.342, 'corr_diff': 0.076, 'cat_tv_aa': 0.075, 'cat_tv_dssp': 0.138, 'detect_auc': 1.0, 'nn_ratio': 1.728}
+  fidelity smote : {'ks_mean': 0.057, 'ks_max': 0.101, 'corr_diff': 0.021, 'cat_tv_aa': 0.042, 'cat_tv_dssp': 0.109, 'detect_auc': 0.973, 'nn_ratio': 0.625}
+
+=== fold 3: train 60,115 (pos 9,168 = 0.153) val 10,304 test 17,621 | PCA var 0.49
+  none           4s  @valthr mcc 0.167 prauc 0.269 rec 0.620 | @0.5 mcc 0.072 rec 0.011 prec 0.674
+  weight         3s  @valthr mcc 0.168 prauc 0.261 rec 0.561 | @0.5 mcc 0.166 rec 0.591 prec 0.232
+  ros1.0         5s  @valthr mcc 0.167 prauc 0.264 rec 0.592 | @0.5 mcc 0.171 rec 0.541 prec 0.242
+  smotenc0.5     3s  @valthr mcc 0.155 prauc 0.243 rec 0.525 | @0.5 mcc 0.027 rec 0.008 prec 0.314
+  smotenc1.0     3s  @valthr mcc 0.139 prauc 0.232 rec 0.763 | @0.5 mcc 0.094 rec 0.117 prec 0.289
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\ctgan\synthesizers\_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+  CTGAN fit 675s
+  ctgan0.5      19s  @valthr mcc 0.157 prauc 0.255 rec 0.753 | @0.5 mcc 0.073 rec 0.024 prec 0.446
+  ctgan1.0      16s  @valthr mcc 0.162 prauc 0.254 rec 0.708 | @0.5 mcc 0.047 rec 0.015 prec 0.376
+  fidelity ctgan : {'ks_mean': 0.134, 'ks_max': 0.28, 'corr_diff': 0.081, 'cat_tv_aa': 0.074, 'cat_tv_dssp': 0.162, 'detect_auc': 1.0, 'nn_ratio': 1.786}
+  fidelity smote : {'ks_mean': 0.048, 'ks_max': 0.087, 'corr_diff': 0.02, 'cat_tv_aa': 0.036, 'cat_tv_dssp': 0.117, 'detect_auc': 0.975, 'nn_ratio': 0.648}
+
+=== fold 4: train 59,512 (pos 9,221 = 0.155) val 10,918 test 17,610 | PCA var 0.47
+  none          10s  @valthr mcc 0.138 prauc 0.229 rec 0.546 | @0.5 mcc 0.042 rec 0.004 prec 0.600
+  weight         9s  @valthr mcc 0.124 prauc 0.227 rec 0.345 | @0.5 mcc 0.131 rec 0.444 prec 0.224
+  ros1.0         5s  @valthr mcc 0.126 prauc 0.217 rec 0.549 | @0.5 mcc 0.123 rec 0.517 prec 0.209
+  smotenc0.5     4s  @valthr mcc 0.128 prauc 0.210 rec 0.556 | @0.5 mcc 0.008 rec 0.001 prec 0.250
+  smotenc1.0     4s  @valthr mcc 0.113 prauc 0.208 rec 0.435 | @0.5 mcc 0.072 rec 0.159 prec 0.227
+C:\Users\Ashritha K S\AppData\Local\Programs\Python\Python312\Lib\site-packages\ctgan\synthesizers\_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+  CTGAN fit 703s
+  ctgan0.5      12s  @valthr mcc 0.133 prauc 0.219 rec 0.474 | @0.5 mcc 0.048 rec 0.030 prec 0.286
+  ctgan1.0      24s  @valthr mcc 0.118 prauc 0.227 rec 0.373 | @0.5 mcc 0.074 rec 0.038 prec 0.363
+  fidelity ctgan : {'ks_mean': 0.137, 'ks_max': 0.297, 'corr_diff': 0.077, 'cat_tv_aa': 0.08, 'cat_tv_dssp': 0.176, 'detect_auc': 1.0, 'nn_ratio': 1.775}
+  fidelity smote : {'ks_mean': 0.051, 'ks_max': 0.088, 'corr_diff': 0.02, 'cat_tv_aa': 0.029, 'cat_tv_dssp': 0.092, 'detect_auc': 0.981, 'nn_ratio': 0.647}
+
+saved C:\Users\Ashritha K S\PPI Project\results\phase4_balance_35M.json

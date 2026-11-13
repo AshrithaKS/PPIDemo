@@ -1,0 +1,30 @@
+{
+  "n_proteins": 70,
+  "mean_base_rate": 0.24325291566165907,
+  "models": {
+    "H_baseline": {
+      "mean_within_protein_AP": 0.3833638626677377,
+      "median_within_protein_AP": 0.34904552834765135,
+      "n_proteins_above_own_base_rate": 66,
+      "pooled_PR_AUC": 0.36398184318705296,
+      "pooled_PR_AUC_protein_mean_only": 0.3026896934793389
+    },
+    "F_final": {
+      "mean_within_protein_AP": 0.42996190007667884,
+      "median_within_protein_AP": 0.40376837777219804,
+      "n_proteins_above_own_base_rate": 68,
+      "pooled_PR_AUC": 0.4114544799120221,
+      "pooled_PR_AUC_protein_mean_only": 0.3111448880107341
+    },
+    "S_demo": {
+      "mean_within_protein_AP": 0.42656073441128306,
+      "median_within_protein_AP": 0.39620806569530265,
+      "n_proteins_above_own_base_rate": 65,
+      "pooled_PR_AUC": 0.40021131969826207,
+      "pooled_PR_AUC_protein_mean_only": 0.31012749991943894
+    }
+  },
+  "fused_beats_baseline_in_n_proteins": 48,
+  "mean_within_protein_AP_gain_fused_minus_baseline": 0.04659803740894111,
+  "spearman_length_vs_interface_fraction": -0.7090751618756156
+}

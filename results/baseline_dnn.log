@@ -1,0 +1,6 @@
+[dnn local/s0] 53s ep 17 prauc 0.266 rec@0.5 0.463 mcc@thr 0.119
+[dnn local/s1] 37s ep 12 prauc 0.280 rec@0.5 0.580 mcc@thr 0.128
+[dnn local/s2] 43s ep 13 prauc 0.257 rec@0.5 0.444 mcc@thr 0.072
+[dnn local+global/s0] 73s ep 10 prauc 0.341 rec@0.5 0.640 mcc@thr 0.194
+[dnn local+global/s1] 110s ep 15 prauc 0.336 rec@0.5 0.524 mcc@thr 0.195
+[dnn local+global/s2] 88s ep 24 prauc 0.310 rec@0.5 0.457 mcc@thr 0.169

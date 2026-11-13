@@ -1,0 +1,20 @@
+[35M F seed 0]  136s thr 0.16 mcc 0.257 prauc 0.397 recall 0.490 prec 0.370 acc 0.734
+[35M F seed 1]  124s thr 0.14 mcc 0.251 prauc 0.396 recall 0.615 prec 0.328 acc 0.674
+[35M F seed 2]  145s thr 0.18 mcc 0.242 prauc 0.391 recall 0.355 prec 0.410 acc 0.771
+=== F_35M: MCC 0.250±0.006  PR-AUC 0.395  acc 0.726
+[35M S seed 0]   91s thr 0.24 mcc 0.239 prauc 0.383 recall 0.328 prec 0.421 acc 0.778
+[35M S seed 1]  279s thr 0.06 mcc 0.254 prauc 0.395 recall 0.575 prec 0.341 acc 0.696
+[35M S seed 2]  193s thr 0.11 mcc 0.238 prauc 0.381 recall 0.405 prec 0.382 acc 0.753
+=== S_35M: MCC 0.244±0.007  PR-AUC 0.386  acc 0.742
+[150M F seed 0]  119s thr 0.17 mcc 0.279 prauc 0.423 recall 0.532 prec 0.376 acc 0.733
+[150M F seed 1]  172s thr 0.21 mcc 0.265 prauc 0.416 recall 0.344 prec 0.448 acc 0.786
+[150M F seed 2]  437s thr 0.10 mcc 0.279 prauc 0.429 recall 0.464 prec 0.402 acc 0.757
+=== F_150M: MCC 0.274±0.006  PR-AUC 0.423  acc 0.759
+[150M S seed 0]  148s thr 0.14 mcc 0.279 prauc 0.413 recall 0.527 prec 0.377 acc 0.735
+[150M S seed 1]  140s thr 0.16 mcc 0.271 prauc 0.407 recall 0.448 prec 0.401 acc 0.758
+[150M S seed 2]  223s thr 0.15 mcc 0.256 prauc 0.408 recall 0.345 prec 0.434 acc 0.782
+=== S_150M: MCC 0.269±0.009  PR-AUC 0.410  acc 0.758
+  F_35M - S_35M          dMCC +0.010 CI -0.006..+0.027 | dPR-AUC +0.011 CI -0.003..+0.025
+  F_35M - F_150M         dMCC -0.019 CI -0.048..+0.008 | dPR-AUC -0.028 CI -0.054..-0.003
+  F_35M - S_150M         dMCC -0.015 CI -0.041..+0.012 | dPR-AUC -0.012 CI -0.038..+0.013
+saved results/esm_size_comparison.json

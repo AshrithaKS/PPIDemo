@@ -1,0 +1,14 @@
+explaining 3,000 random test residues (of 11,791); positive rate in sample 0.182
+additivity check, max |sum(SHAP)+base - margin| = 4.29e-06
+  ESM-2 embedding                           79.6%  (640 features)
+  window: PSSM                               6.0%  (140 features)
+  global: amino-acid composition             4.6%  (20 features)
+  global: length / relative position         4.2%  (2 features)
+  global: DSSP fractions                     2.6%  (9 features)
+  global: mean PSSM                          2.5%  (20 features)
+  window: DSSP                               0.5%  (63 features)
+  window: residue identity (one-hot)         0.1%  (140 features)
+  wrote shap_protein_3e1z_B.png
+  wrote shap_protein_3AYHB.png
+  wrote shap_protein_3VU9A.png
+done

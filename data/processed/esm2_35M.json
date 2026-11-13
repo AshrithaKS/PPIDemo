@@ -1,0 +1,14 @@
+{
+  "model": "facebook/esm2_t12_35M_UR50D",
+  "dim": 480,
+  "n_residues": 88040,
+  "n_proteins": 422,
+  "dtype": "float16",
+  "chunk": {
+    "max_len": 1000,
+    "overlap": 200
+  },
+  "mean": 0.005324502009898424,
+  "std": 0.35494494438171387,
+  "seconds": 52.7
+}
